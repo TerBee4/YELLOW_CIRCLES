@@ -46,6 +46,7 @@ class Example(QWidget):
         for i in circles:
             qp.drawEllipse(i[0], i[1], i[2], i[3])
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
