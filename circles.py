@@ -39,7 +39,7 @@ class Example(QWidget):
     def draw_flag(self, qp):
         global circles
         # Задаем кисть
-        qp.setBrush(QColor(255, 255, 0))
+        qp.setBrush(QColor(randrange(255), randrange(255), randrange(255)))
         # Рисуем прямоугольник заданной кистью
         a = randrange(250)
         circles.append((randrange(700), randrange(700), a, a))
